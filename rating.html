@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="rating.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Brownie Hub Rating and Feedback</h1>
+        <div class="rating">
+            <form action="rating.php" method="POST">
+                <p>Rate this brownie hub:</p>
+                <input type="radio" name="rating" value="5"> 5
+                <input type="radio" name="rating" value="4"> 4
+                <input type="radio" name="rating" value="3"> 3
+                <input type="radio" name="rating" value="2"> 2
+                <input type="radio" name="rating" value="1"> 1
+                <p>Leave your feedback:</p>
+                <textarea name="feedback" rows="4" cols="50" placeholder="Enter your feedback here"></textarea><br><br>
+                <input type="submit" value="Submit Rating and Feedback">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

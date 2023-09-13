@@ -1,0 +1,30 @@
+body
+{
+  background-image: url("d:/brownies-img-cell.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+{
+  font-family: Arial, sans-serif;
+  background-color: #f4f44;
+  margin: 0;
+  padding: 0;
+}
+.container {
+   max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+}
+
+.rating {
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
